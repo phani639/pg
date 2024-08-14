@@ -1,0 +1,135 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather</title>
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        <style>
+            .parentContainer {
+                width: 600px;
+                height: 600px;
+                border: 2px solid;
+                margin: 120px auto;
+                background-image: url("./images/weather.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 8px;
+            }
+           #time {
+                  position: relative;
+                left: 469px;
+                top: 45px;
+                font-size: 35px;
+                font-weight: bold;
+           }
+           #day {
+                 position: relative;
+                left: 391px;
+                top: 24px;
+                font-size: 26px;
+                font-weight: bold;
+           }
+           #ggg {
+            position: relative;
+            left: 364px;
+            top: 6px;
+            font-size: 33px;
+            font-weight: 600;
+           }
+           #num {
+            position: relative;
+            left: 487px;
+            top: -11px;
+            font-size: 33px;
+            font-weight: 600;
+           }
+           .child {
+            /* border: 2px solid; */
+            width: 586px;
+            margin: 5px;
+            height: 323px;
+            display: flex;
+            margin-top: 60px;
+           }
+           .one {
+            border: 2px solid;
+            width: 25%;
+            height: 200px;
+            border-left: none;
+            border-top:none;
+            border-bottom: none;
+           }
+           .two {
+            border: 2px solid;
+            width: 25%;
+            height: 200px;
+            border-left: none;
+            border-top:none;
+            border-bottom: none;
+           }
+           .three {
+            border: 2px solid;
+            width: 25%;
+            height: 200px;
+            border-left: none;
+            border-top:none;
+            border-bottom: none;
+           }
+           .four {
+            /* border: 2px solid; */
+            width: 25%;
+            height: 200px;
+            border-left: none;
+            border-top:none;
+            border-bottom: none;
+           }
+           h3 {
+            position: relative;
+            left: 30px;
+            top: 12px;
+           }
+           .bi-cloud-sun-fill {
+                font-size: 125px;
+                margin: 10px;
+                color: rgb(103, 195, 195);
+                
+           }
+           .bi-cloud-moon-fill {
+                 font-size: 125px;
+                margin: 10px;
+                color: whitesmoke;
+           }
+        </style>
+    </head>
+    <body>
+        <div class="parentContainer">
+            <p id="time">5 : 45</p>
+            <p id="day">Saturday ,Feb</p>
+            <p id="ggg">Partly Cloudy</p>
+            <p id="num">24 %</p>
+            
+            <div class="child">
+                <div class="one">
+                    <i class="bi bi-cloud-sun-fill"></i>
+                    <h3>Sunny <br> 5%</h3>
+                </div>
+                <div class="two">
+                    <i class="bi bi-cloud-moon-fill"></i>
+                    <h3>Cloudy <br> 6%</h3>
+                </div>
+                <div class="three">
+                    <i class="bi bi-cloud-moon-fill"></i>
+                    <h3>Rainy <br> 7%</h3>
+                </div>
+                <div class="four">
+                    <i class="bi bi-cloud-sun-fill"></i>
+                    <h3>
+                        Sunny <br> 6%
+                    </h3>
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopper</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        header{
+            font-size: 22px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: space-between;
+        
+        }
+        .brand-tittle{
+            font-weight: bold;
+        }
+        .main-nav span{
+            padding-right: 20px;
+            font-size: 25px;
+        }
+        .shortcut-nav span{
+            padding-right: 10px;
+            font-size: 20px;
+        }
+        article{
+            margin-top: 30px;
+            background-color: gray;
+            text-align: center;
+          }
+        .bi-lightning-fill{
+            color: gold;
+        }
+        main{
+            display: grid;
+            grid-template-columns: 4fr 4fr 4fr;
+        }
+        .men-fashion{
+            background-image: url("images/men.jpg");
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            height: 400px;
+            width: 350px;
+            opacity: 0.7;
+        }
+        .women-fashion{
+            background-image: url("images/women.jpg");
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            height: 400px;
+            width: 350px;
+            opacity: 0.7;
+        }
+        .kids-fashion{
+            background-image: url("images/kids.jpg");
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            height: 400px;
+            width: 350px;
+            opacity: 0.7;
+        }
+        .men-fashion:hover,.women-fashion:hover,.kids-fashion:hover{
+            font-weight: bold;
+            opacity: 1;
+        }
+            </style>
+</head>
+<body>
+    <header>
+        <div>
+            <span class="brand-tittle">Shopper.</span>
+        </div>
+        <div>
+            <nav class="main-nav">
+                <span>HOME</span>
+                <span>DEBUG</span>
+                <span>OFFERS</span>
+            </nav>
+        </div>
+        <div>
+            <nav class="shortcut-nav">
+                <span class="bi bi-search"></span>
+                <span class="bi bi-heart"></span>
+                <span class="bi bi-cart"></span>
+            </nav>
+        </div>
+    </header>
+    <article>
+        <span class="bi bi-lightning-fill"></span>
+        <span>BIG BILLION SALES</span>
+        <span class="bi bi-lightning-fill"></span>
+</article>
+<section>
+    <main>
+        <div class="men-fashion">
+            <span>men-fashion</span>
+            <span class="get note">Get-note</span>
+        </div>
+        <div class="women-fashion">
+            <span>women-fashion</span>
+            <span class="get note">Get note</span>
+        </div>
+        <div class="kids-fashion">
+            <span>kids-fashion</span>
+            <span class="get note">Get note</span>
+        </div>
+    </main>
+</section>
+    </body>
+</html>

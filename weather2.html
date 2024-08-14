@@ -1,0 +1,185 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        .weather {
+            /* border: 3px solid; */
+            height: 600px;
+            width: 800px;
+            margin: auto;
+            background-image: url(./images/weather1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+           
+        }
+        p {
+            margin-left: 23px;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: 'Times New Roman';
+            margin-top: 5px;
+            color: rgb(0, 0, 0);
+        }
+        .cloud {
+            text-align: center;
+            font-size: 25px;
+            font-weight: bold;
+            font-family: Arial;
+            color: rgb(255, 240, 240);
+        }
+        .bi-cloud-sun {
+            color: skyblue;
+            font-size: 55px;
+            margin-top: -380px;
+        }
+        .deg {
+            text-align: right;
+            margin-right: 90px;
+           margin-top: -200px;
+           font-size: 80px;
+           font-weight: bold;
+           color: black;
+        }
+        .days {
+            display: flex;
+            border: 2px solid;
+            width: 100%;
+            height: 35%;
+            margin-top: 90px;
+            border-left: none;
+            border-top: none;
+            border-bottom: none;
+            color: white;
+        }
+        .one {
+            border: 2px solid;
+            height: 100%;
+            width: 20%;
+            border-left: none;
+            border-top: none;
+            border-bottom: none;
+            color: aquamarine;
+        }
+        .two {
+            border: 2px solid;
+            height: 100%;
+            width: 20%;
+            border-left: none;
+            border-top: none;
+            border-bottom: none;
+        }
+        .three {
+            border: 2px solid;
+            height: 100%;
+            width: 20%;
+            border-left: none;
+            border-top: none;
+            border-bottom: none;
+            color: gray;
+        }
+        .four {
+            border: 2px solid;
+            height: 100%;
+            width: 20%;
+            border-left: none;
+            border-top: none;
+            border-bottom: none;
+        }
+        .five {
+            border: 2px solid;
+            height: 100%;
+            width: 20%;
+            border-left: none;
+            border-top: none;
+            border-bottom: none;
+            color: aqua;
+        }
+        .six {
+            border: 2px solid;
+            height: 100%;
+            width: 20%;
+            border-left: none;
+            border-top: none;
+            border-bottom: none;
+            border-right: none;
+        }
+        h2 {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .bi-cloud-sun-fill {
+            font-size: 60px;
+            position: relative;
+            left: 30px;
+            top: 18px;
+            color: skyblue;
+        }
+        .bi-cloud-drizzle {
+            font-size: 60px;
+            position: relative;
+            left: 30px;
+            top: 18px;
+        }
+        .bi-cloud-moon {
+            font-size: 60px;
+            position: relative;
+            left: 30px;
+            top: 18px;
+            color: aqua;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="weather">
+     <p><i class="bi bi-geo-alt-fill"></i> Eluru</p>
+     <p>MONDAY</p>
+     <p>5 : 47 PM</p>
+     <p>Wind 6km/h</p>
+     <p><i class="bi bi-droplet"></i> 30%</p>
+     <div class="cloud">
+        <i class="bi bi-cloud-sun"></i><br>
+        <span>PARTLY CLOUDY</span>
+     </div>
+     <div class="deg">
+      <span>19&deg;</span>
+     </div>
+     <div class="days">
+    <div class="one">
+    <h2>MON<br>25&deg;</h2>
+    <i class="bi bi-cloud-sun-fill"></i>
+    
+    </div>
+    <div class="two">
+    <h2>TUE<br>22&deg;</h2>
+    <i class="bi bi-cloud-drizzle"></i>
+    
+    </div>
+    <div class="three">
+    <h2>WED<br> 22&deg;</h2>
+    <i class="bi bi-cloud-moon"></i>
+   
+    </div>
+    <div class="four">
+    <h2>THU<br>33&deg;</h2>
+    <i class="bi bi-cloud-sun-fill"></i>
+    
+    </div>
+    <div class="five">
+    <h2>FRI<br>20&deg;</h2>
+    <i class="bi bi-cloud-drizzle"></i>
+    
+    </div>
+    <div class="six">
+    <h2>SAT<br>35&deg;</h2>
+    <i class="bi bi-cloud-moon"></i>
+    
+    </div>
+     </div>
+    </div>
+</body>
+</html>

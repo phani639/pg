@@ -1,0 +1,152 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        form {
+            border: 2px solid;
+            margin: auto ;
+            width: 550px;
+            background-color: aquamarine;
+        }
+      dd {
+        position: relative;
+    left: 170px;
+    top: -21px;
+      }
+      dt {
+        margin-left: 15px;
+      }
+      h4 {
+        text-align: center;
+        border: 1px solid;
+        margin-top: 5px;
+        border-radius: 15px;
+      background-color: aqua;
+      border-;
+     
+      
+      }
+      button{
+        position: relative;
+        left: 200px;
+        top: -10px;
+        border-radius: 10px;
+        background-color: rgb(0, 128, 128);
+      }
+    </style>
+</head>
+<body>
+    <form>
+   
+        <h4>REGISTRATION FORM</h4>
+
+         <dl>
+            <dt>Name :</dt>
+            <dd><input type="text" name="" id=""></dd>
+         </dl>
+       <dl>
+        <dt>Password :</dt>
+        <dd><input type="password" name="" id=""></dd>
+       </dl>
+       <dl>
+        <dt>Age :</dt>
+        <dd> <input type="number" min="18" max="60" step="2"></dd>
+       </dl>
+    <dl>
+        <dt>D.O.B :</dt>
+        <dd><input type="date"></dd>
+    </dl>
+        <dl>
+            <dt>E-mail :</dt>
+            <dd> <input type="email"></dd>
+        </dl>
+        <dl>
+            <dt>Color :</dt>
+            <dd> <input type="color" value="#00ffff"></dd>
+        </dl>
+            <dl>
+                <dt>Date :</dt>
+                <dd> <input type="datetime-local"></dd>
+            </dl>
+        <dl>
+            <dt>Week :</dt>
+            <dd> <input type="week"></dd>
+        </dl>
+       
+       <dl>
+        <dt>Month :</dt>
+        <dd><input type="month"></dd>
+       </dl>
+      <dl>
+        <dt>Photo :</dt>
+        <dd> <input type="file" accept=".jpg,.png" name="photo"></dd>
+      </dl>
+    <dl>
+        <dt>Gender :</dt>
+        <dd><input type="radio" name="Gender" id="">Male
+      <input type="radio" name="Gender">Female </dd>
+    </dl>
+          <dl>
+            <dt>Sports :</dt>
+            <dd><input type="checkbox" name="KABBADI" id="">KABBADI
+                <input type="checkbox" name="RUNNING" id="">RUNNING 
+               <input type="checkbox" name="BASKETBALL" id="">BASKETBALL 
+               <input type="checkbox" name="VOLLEYBALL" id="">VOLLEYBALL </dd>
+          </dl>
+        <dl>
+            <dt>State :</dt>
+            <dd> <select>
+                <option value="">NONE OF THESE</option>
+                <option value="">ANDHRAPRADESH</option>
+                <option value="">TELENGANA</option>
+                <option value="">ASSAM</option>
+                <option value="">GOA</option>
+                <option value="">MAHARASTRA</option>
+                <optgroup label="CAPITALS">
+                  <option value="">AMARAVATHI</option>
+                  <option value="">HYDERABAD</option>
+                  <option value="">DISPUR</option>
+                  <option value="">PANAJI</option>
+                  <option value="">MUMBAI</option>
+                </optgroup>
+              </select></dd>
+        </dl>
+        <dl>
+          <dt>Progress :</dt>
+          <dd><progress></progress></dd>
+        </dl>
+       <dl>
+        <dt>URL :</dt>
+        <dd><input type="url" name="" id=""></dd>
+       </dl>
+      <dl>
+        <dt>PH No. :</dt>
+        <dd><input type="tel"></dd>
+      </dl>
+        <dl>
+            <dt>Address :</dt>
+            <dd><input type="text" name="Address" id=""></dd>
+        </dl>
+        <dl>
+          <dt>Description :</dt>
+          <dd><textarea rows="5" cols="40"></textarea></dd>
+        </dl>
+        <dl>
+          <dt>Rating :</dt>
+          <dd>
+            
+            <span class="bi bi-star-fill"></span><meter min="1" max="100" value="100" low="0" high="0"></meter><br>
+          <span class="bi bi-star-half"></span><meter min="1" max="100" value="100" low="40" high="80"></meter><br>
+          <span class="bi bi-star"></span><meter min="1" max="100" value="100" low="60" high="0"></dd>
+        </dl>
+       
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+  
+</form>
+</body>
+</html>

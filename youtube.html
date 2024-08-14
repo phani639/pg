@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            font-size: 16px;
+            font-family: Arial;
+        }
+        .bi-justify {
+            font-size: 24px;
+        }
+        .search-bar {
+            display: inline-flex;
+            width: 400px;
+            border:1px solid gray;
+            border-radius: 20px;
+            padding: 10px;
+            justify-content: space-between;
+        }
+        .bi-mic-fill {
+            margin-left: 30px;
+            background-color: rgb(236, 234, 234);
+            padding: 10px;
+            border-radius: 50%;
+        }
+        .btn-signin {
+            border: 1px solid blue;
+            padding: 10px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+        .bi-three-dots-vertical {
+            font-size: 20px;
+        }
+        section {
+            display: grid;
+            grid-template-columns: 2fr 10fr;
+            margin-top: 10px;
+        }
+        nav {
+            margin-left: -40px;
+            font-size: 18px;
+            text-align: center;
+        }
+        .nav-title {
+            font-size: 12px;
+        }
+        .nav-item {
+            margin-top: 25px;
+            margin-bottom:25px;
+        }
+        article {
+            display: grid;
+            grid-template-columns: 2fr 10fr;
+            font-family: Arial;
+        }
+        .btn-subscribe {
+            background-color: black;
+            color:white;
+            padding: 10px;
+            border-radius: 20px;
+            width:100px;
+        }
+        .menu {
+            list-style: none;
+            display: flex;
+            font-family: Arial;
+            font-size: 20px;
+            color:gray;
+            margin-left: -50px;
+            border-bottom: 0.5px solid gray;
+            padding-bottom: 20px;
+        }
+        .menu li {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .menu li:first-child {
+            font-weight: bold;
+            color:black;
+            text-decoration: underline;
+        }
+        main {
+            height: 500px;
+            overflow: auto;
+        }
+        .about-us {
+            display: grid;
+            grid-template-columns: 7fr 5fr;
+            grid-gap: 20px;
+            width: 80%;
+            font-family: Arial;
+        }
+        iframe {
+            border:none;
+            width: 100%;
+            height: 250px;
+        }
+        .about-us div {
+            margin-bottom: 20px;
+        }
+        .playlist {
+            display: grid;
+            grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+            grid-gap: 2px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        .playlist iframe {
+            border:1px solid gray;
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <span class="bi bi-justify"></span>
+            <img src="./images/youtube.jpg" width="50%">
+        </div>
+        <div>
+            <span class="search-bar">
+                <span>Search</span>
+                <span class="bi bi-search"></span>
+            </span>
+            <span class="bi bi-mic-fill"></span>
+        </div>
+        <div>
+            <span class="bi bi-three-dots-vertical"></span>
+            <span class="btn-signin"> <span class="bi bi-person-circle"> Sign in </span> </span>
+        </div>
+    </header>
+    <section>
+        <nav>
+            <div class="nav-item">
+                <span class="bi bi-house-door"></span>
+                <div class="nav-title">Home</div>
+            </div>
+            <div class="nav-item">
+                <span class="bi bi-film"></span>
+                <div class="nav-title"> Shorts</div>
+            </div>
+            <div class="nav-item">
+                <span class="bi bi-camera-video"></span>
+                <div class="nav-title"> Live</div>
+            </div>
+            <div class="nav-item">
+                <span class="bi bi-gear"></span>
+                <div class="nav-title">Settings</div>
+            </div>
+        </nav>
+        <main>
+            <img src="./images/ybg.jpg" width="100%">
+            <article>
+                <div>
+                    <img src="./images/logo.jpg" width="100%">
+                </div>
+                <div>
+                    <h3>Filmymoji</h3>
+                    <p>@middle class madhu</p>
+                    <p>@FilmyMoji
+                        •
+                        5.01M subscribers
+                        •
+                        398 videos</p>
+                    <p>We Are The Trendsetters, Our Work will be Copied and used as Inspiration!!! That's FILMYMOJI
+
+                        Subscribe to us Today🙏 we will make You Laugh Everyday  LIVE🥳 LAUGH🤣 LOVE😍
+                        
+                        For Brand Partnerships, Collaborations & Business Enquiries, DM on our Instagram.</p>
+                    <p><a href="http://www.instagram.com/filmymoji">instagram.com/filmymoji</a&gt;>
+                        and 6 more links</p>
+                    <div class="btn-subscribe"> <span class="bi bi-bell-fill"></span> Subscribe</div>
+                </div>
+            </article>
+            <ul class="menu">
+                <li>Home</li>
+                <li>Videos</li>
+                <li>Shorts</li>
+                <div>
+                    <div><b>Best comedy of FilmyMoji</b></div>
+                    <div>223,182 views 4 years ago</div>
+                    </div>
+                <li>Live</li>
+                <li>Playlists</li>
+                <li>Community</li>
+                <li class="bi bi-search"></li>
+            </ul>
+            <div class="about-us">
+                <div>
+                    <iframe src="https://youtube.com/embed/kAMCyraJ3Nu7K0Ma"></iframe&gt;
+                </div>
+                </div>
+            </div>
+            <div class="playlist">
+                <iframe></iframe>
+                <iframe></iframe>
+                <iframe></iframe>
+                <iframe></iframe>
+                <iframe></iframe>
+            </div>
+            <div class="playlist">
+                <iframe></iframe>
+                <iframe></iframe>
+                <iframe></iframe>
+                <iframe></iframe>
+                <iframe></iframe>
+            </div>
+        </main>
+    </section>
+</body>
+</html>
